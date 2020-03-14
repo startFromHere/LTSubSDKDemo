@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		417B244F1FB9B2CB37BA34C4 /* Pods_LTSubSDKDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LTSubSDKDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		46F7EC5BD22AC617DCD3C870 /* LTSubSDKDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LTSubSDKDemo.podspec; path = ../LTSubSDKDemo.podspec; sourceTree = "<group>"; };
+		46F7EC5BD22AC617DCD3C870 /* LTSubSDKDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LTSubSDKDemo.podspec; path = ../LTSubSDKDemo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		517940AD460557F634E1A563 /* Pods_LTSubSDKDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LTSubSDKDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* LTSubSDKDemo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTSubSDKDemo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,13 +60,13 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		73AEC789E0ED119D44C1D9A8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		73AEC789E0ED119D44C1D9A8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		98129280AF112987EE17C30A /* Pods-LTSubSDKDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTSubSDKDemo_Example.debug.xcconfig"; path = "Target Support Files/Pods-LTSubSDKDemo_Example/Pods-LTSubSDKDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B2E19A56EB814DF4AAD33195 /* Pods-LTSubSDKDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTSubSDKDemo_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LTSubSDKDemo_Tests/Pods-LTSubSDKDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B700055CD0F12978B56F822B /* Pods-LTSubSDKDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTSubSDKDemo_Example.release.xcconfig"; path = "Target Support Files/Pods-LTSubSDKDemo_Example/Pods-LTSubSDKDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D17509C0D16EA184A26BC040 /* Pods-LTSubSDKDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTSubSDKDemo_Tests.release.xcconfig"; path = "Target Support Files/Pods-LTSubSDKDemo_Tests/Pods-LTSubSDKDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E55A0305F7E78441F60FA544 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E55A0305F7E78441F60FA544 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				B2E19A56EB814DF4AAD33195 /* Pods-LTSubSDKDemo_Tests.debug.xcconfig */,
 				D17509C0D16EA184A26BC040 /* Pods-LTSubSDKDemo_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

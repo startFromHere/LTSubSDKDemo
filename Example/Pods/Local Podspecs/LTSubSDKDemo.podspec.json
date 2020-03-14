@@ -1,0 +1,22 @@
+{
+  "name": "LTSubSDKDemo",
+  "version": "0.1.0",
+  "summary": "A short description of LTSubSDKDemo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/startFromHere/LTSubSDKDemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "startFromHere": "liutao900629@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/startFromHere/LTSubSDKDemo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LTSubSDKDemo/Classes/**/*"
+}
